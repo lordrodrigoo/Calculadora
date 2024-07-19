@@ -20,6 +20,6 @@ class MainWindow(QMainWindow):
         self.adjustSize()
         self.setFixedSize(self.width(), self.height())
 
-    def addToVLayout(self, widget: QWidget):
+    def addWidgetVLayout(self, widget: QWidget):
         self.VLayout.addWidget(widget)
         
